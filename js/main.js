@@ -115,7 +115,7 @@ jQuery(function($){
  * 
  * Plugin by BrunoLM: http://stackoverflow.com/a/3855394/463471
  */
-(function($) {
+jQuery(function($) {
     $.QueryString = (function(a) {
         if (a == "") return {};
         var b = {};
@@ -127,4 +127,4 @@ jQuery(function($){
         }
         return b;
     })(window.location.search.substr(1).split('&'))
-})(jQuery);
+});
